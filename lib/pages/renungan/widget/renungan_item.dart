@@ -48,15 +48,17 @@ class _RenunganItemState extends State<RenunganItem> {
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
-                child: Container(
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: NetworkImage(widget.renungan.imageUrl),
-                      fit: BoxFit.fill,
+                child: Expanded(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(widget.renungan.imageUrl),
+                        fit: BoxFit.cover,
+                      ),
                     ),
+                    height: 400,
+                    width: 380,
                   ),
-                  height: 190,
-                  width: 380,
                 ),
               ),
             ],

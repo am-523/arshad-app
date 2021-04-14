@@ -47,7 +47,9 @@ class _MenuPageState extends State<MenuPage> {
     var renunganProvider = Provider.of<RenunganProvider>(context);
     renunganProvider.getRenungan();
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
+        bottom: false,
         child: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -176,7 +178,7 @@ class _MenuPageState extends State<MenuPage> {
                             );
                           },
                           image: 'assets/mosque.png',
-                          title: 'Kazian\nOnline',
+                          title: 'Khazanah',
                         ),
                         MenuItem(
                           onTapAction: () {
@@ -196,13 +198,8 @@ class _MenuPageState extends State<MenuPage> {
                   SizedBox(
                     height: 10,
                   ),
-                  // Padding(
-                  //   padding: EdgeInsets.symmetric(horizontal: edge),
-                  //   child: Text(
-                  //     "Postingan Media Islam",
-                  //     style: whiteTextStyle.copyWith(fontSize: 20),
-                  //   ),
-                  // ),
+
+                  // Renungan title
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: edge),
                     child: Text(
@@ -210,6 +207,7 @@ class _MenuPageState extends State<MenuPage> {
                       style: whiteTextStyle.copyWith(fontSize: 20),
                     ),
                   ),
+                  // Renungan Body
                   Padding(
                     padding: EdgeInsets.symmetric(
                       horizontal: edge,
@@ -223,9 +221,12 @@ class _MenuPageState extends State<MenuPage> {
                           return Column(
                             children: data.map((item) {
                               return Container(
-                                margin: EdgeInsets.only(
-                                  top: index == 1 ? 0 : 15,
-                                ),
+                                height: 400,
+
+                                margin: EdgeInsets.only(top: 20),
+                                // margin: EdgeInsets.only(
+                                //   top: index == 1 ? 0 : 15,
+                                // ),
                                 child: RenunganItem(item),
                               );
                             }).toList(),

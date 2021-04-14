@@ -314,14 +314,14 @@ class _PageMainState extends State<PageMain> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  styleText(listHasil[index].nama, Size.size16, Colors.black,
-                      FontWeight.normal, 1, null),
+                  styleText(listHasil[index].nama, Size.size24,
+                      Color(0xff29286C), FontWeight.normal, 1, null),
                   styleText(
                       listHasil[index].arti +
                           ' | ' +
                           listHasil[index].ayat +
                           ' ayat',
-                      Size.size12,
+                      Size.size18,
                       Colors.grey,
                       FontWeight.normal,
                       2,

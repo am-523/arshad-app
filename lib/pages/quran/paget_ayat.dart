@@ -48,7 +48,7 @@ class _PageAyatState extends State<PageAyat> {
           backgroundColor: Color(0xff29286C),
           title: Text(
             _suratNama,
-            style: TextStyle(fontSize: Size.size16, color: Colors.white),
+            style: TextStyle(fontSize: Size.size18, color: Colors.white),
           ),
           leading: IconButton(
               icon: Icon(
@@ -181,14 +181,14 @@ class _PageAyatState extends State<PageAyat> {
               height: Size.size32,
               margin: EdgeInsets.only(right: Size.size16),
               decoration: BoxDecoration(
-                  color: Colors.teal[200],
+                  color: Color(0xff29286C),
                   borderRadius: BorderRadius.only(
                       topRight: Radius.circular(8),
                       bottomRight: Radius.circular(8))),
               child: Center(
                 child: Text(
                   (index + 1).toString(),
-                  style: TextStyle(color: Colors.white, fontSize: Size.size14),
+                  style: TextStyle(color: Colors.white, fontSize: Size.size18),
                 ),
               ),
             ),
@@ -201,7 +201,7 @@ class _PageAyatState extends State<PageAyat> {
                       Func.convertUtf8(listArab[index].teks),
                       textAlign: TextAlign.right,
                       style: TextStyle(
-                          fontSize: Size.size18,
+                          fontSize: Size.size24,
                           color: Colors.black,
                           fontWeight: FontWeight.normal),
                     ),
@@ -212,7 +212,9 @@ class _PageAyatState extends State<PageAyat> {
                       listIndo[index].teks,
                       textAlign: TextAlign.left,
                       style: TextStyle(
-                          fontSize: Size.size14, color: Colors.teal[200]),
+                        fontSize: Size.size18,
+                        color: Color(0xff29286C),
+                      ),
                     ),
                   ),
                 ],
