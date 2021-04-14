@@ -1,0 +1,200 @@
+name: muslim_apps
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.18.3
+  carousel_slider: ^3.0.0
+  cupertino_icons: ^1.0.2
+  flutter_image_slideshow: ^0.0.4
+  flutter_launcher_icons: ^0.9.0
+  flutter_qiblah: ^2.0.0
+  flutter_svg: ^0.21.0+1
+  font_awesome_flutter: ^9.0.0
+  geocoder: ^0.2.1
+  geocoding: ^2.0.0
+  geolocator: ^7.0.1
+  google_fonts: ^2.0.0
+  google_fonts_arabic: ^1.1.7
+  google_maps_flutter: ^2.0.3
+  http: ^0.13.1
+  intl: ^0.17.0
+  lottie: ^1.0.1
+  page_indicator: ^0.4.1
+  progress_indicators: ^1.0.0
+  provider: ^5.0.0
+  pull_to_refresh: ^1.6.4
+  shared_preferences: ^2.0.5
+  url_launcher: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/pic/bg_picture.png
+    - assets/pic/pp_profil.jpg
+    - assets/pic/instagram.png
+    - assets/pic/facebook.png
+    - assets/pic/whatsapp.png
+    - assets/pic/github.png
+    # image surat
+    - assets/surat/sname_1.png
+    - assets/surat/sname_2.png
+    - assets/surat/sname_3.png
+    - assets/surat/sname_4.png
+    - assets/surat/sname_5.png
+    - assets/surat/sname_6.png
+    - assets/surat/sname_7.png
+    - assets/surat/sname_8.png
+    - assets/surat/sname_9.png
+    - assets/surat/sname_10.png
+    - assets/surat/sname_11.png
+    - assets/surat/sname_12.png
+    - assets/surat/sname_13.png
+    - assets/surat/sname_14.png
+    - assets/surat/sname_15.png
+    - assets/surat/sname_16.png
+    - assets/surat/sname_17.png
+    - assets/surat/sname_18.png
+    - assets/surat/sname_19.png
+    - assets/surat/sname_20.png
+    - assets/surat/sname_21.png
+    - assets/surat/sname_22.png
+    - assets/surat/sname_23.png
+    - assets/surat/sname_24.png
+    - assets/surat/sname_25.png
+    - assets/surat/sname_26.png
+    - assets/surat/sname_27.png
+    - assets/surat/sname_28.png
+    - assets/surat/sname_29.png
+    - assets/surat/sname_30.png
+    - assets/surat/sname_31.png
+    - assets/surat/sname_32.png
+    - assets/surat/sname_33.png
+    - assets/surat/sname_34.png
+    - assets/surat/sname_35.png
+    - assets/surat/sname_36.png
+    - assets/surat/sname_37.png
+    - assets/surat/sname_38.png
+    - assets/surat/sname_39.png
+    - assets/surat/sname_40.png
+    - assets/surat/sname_41.png
+    - assets/surat/sname_42.png
+    - assets/surat/sname_43.png
+    - assets/surat/sname_44.png
+    - assets/surat/sname_45.png
+    - assets/surat/sname_46.png
+    - assets/surat/sname_47.png
+    - assets/surat/sname_48.png
+    - assets/surat/sname_49.png
+    - assets/surat/sname_50.png
+    - assets/surat/sname_51.png
+    - assets/surat/sname_52.png
+    - assets/surat/sname_53.png
+    - assets/surat/sname_54.png
+    - assets/surat/sname_55.png
+    - assets/surat/sname_56.png
+    - assets/surat/sname_57.png
+    - assets/surat/sname_58.png
+    - assets/surat/sname_59.png
+    - assets/surat/sname_60.png
+    - assets/surat/sname_61.png
+    - assets/surat/sname_62.png
+    - assets/surat/sname_63.png
+    - assets/surat/sname_64.png
+    - assets/surat/sname_65.png
+    - assets/surat/sname_66.png
+    - assets/surat/sname_67.png
+    - assets/surat/sname_68.png
+    - assets/surat/sname_69.png
+    - assets/surat/sname_70.png
+    - assets/surat/sname_71.png
+    - assets/surat/sname_72.png
+    - assets/surat/sname_73.png
+    - assets/surat/sname_74.png
+    - assets/surat/sname_75.png
+    - assets/surat/sname_76.png
+    - assets/surat/sname_77.png
+    - assets/surat/sname_78.png
+    - assets/surat/sname_79.png
+    - assets/surat/sname_80.png
+    - assets/surat/sname_81.png
+    - assets/surat/sname_82.png
+    - assets/surat/sname_83.png
+    - assets/surat/sname_84.png
+    - assets/surat/sname_85.png
+    - assets/surat/sname_86.png
+    - assets/surat/sname_87.png
+    - assets/surat/sname_88.png
+    - assets/surat/sname_89.png
+    - assets/surat/sname_90.png
+    - assets/surat/sname_91.png
+    - assets/surat/sname_92.png
+    - assets/surat/sname_93.png
+    - assets/surat/sname_94.png
+    - assets/surat/sname_95.png
+    - assets/surat/sname_96.png
+    - assets/surat/sname_97.png
+    - assets/surat/sname_98.png
+    - assets/surat/sname_99.png
+    - assets/surat/sname_100.png
+    - assets/surat/sname_101.png
+    - assets/surat/sname_102.png
+    - assets/surat/sname_103.png
+    - assets/surat/sname_104.png
+    - assets/surat/sname_105.png
+    - assets/surat/sname_106.png
+    - assets/surat/sname_107.png
+    - assets/surat/sname_108.png
+    - assets/surat/sname_109.png
+    - assets/surat/sname_110.png
+    - assets/surat/sname_111.png
+    - assets/surat/sname_112.png
+    - assets/surat/sname_113.png
+    - assets/surat/sname_114.png
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # An image assets can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assetss-and-images/#resolution-aware.
+  # For details regarding adding assetss from package dependencies, see
+  # https://flutter.dev/assetss-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the assets and other descriptors for the font. For
+  # example:
