@@ -5,8 +5,17 @@ import 'package:muslim_apps/theme.dart';
 import 'package:muslim_apps/widget/berita_item.dart';
 import 'package:provider/provider.dart';
 import 'package:muslim_apps/providers/berita_provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class PageCeramah extends StatelessWidget {
+class PageCeramah extends StatefulWidget {
+  final Berita berita;
+  PageCeramah({this.berita});
+
+  @override
+  _PageCeramahState createState() => _PageCeramahState();
+}
+
+class _PageCeramahState extends State<PageCeramah> {
   List<T> map<T>(List list, Function handler) {
     List<T> result = [];
     for (var i = 0; i < list.length; i++) {
@@ -19,6 +28,21 @@ class PageCeramah extends StatelessWidget {
   Widget build(BuildContext context) {
     var beritaProvider = Provider.of<BeritaProvider>(context);
     beritaProvider.getBerita();
+
+    launchURL(String url) async {
+      if (await canLaunch(url)) {
+        launch(url);
+      } else {
+        // throw (url);
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => MenuPage(),
+          ),
+        );
+      }
+    }
+
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -90,7 +114,13 @@ class PageCeramah extends StatelessWidget {
                             margin: EdgeInsets.only(
                               top: index == 1 ? 0 : 15,
                             ),
-                            child: BeritaItem(item),
+                            child: InkWell(
+                              onTap: () {
+                                // launchURL(
+                                //     "https://www.youtube.com/watch?v=5qap5aO4i9A");
+                              },
+                              child: BeritaItem(item),
+                            ),
                           );
                         }).toList(),
                       );
