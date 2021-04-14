@@ -50,18 +50,29 @@ class PageCeramah extends StatelessWidget {
           ),
           child: ListView(
             children: [
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    "Berbagai Manfaat yang Akan Kita Dapat\nDari Mendengarkan Ceramah Agama",
-                    style: whiteTextStyle.copyWith(fontSize: 24),
-                  ),
-                  Text(
-                    "Yuk, kita mulai perubahan mulai hari ini dengan kegiatan\nkegiatan yang bisa menambah keilmuan kita",
-                    style: whiteTextStyle.copyWith(fontSize: 18),
-                  )
-                ],
+              Padding(
+                padding: EdgeInsets.symmetric(
+                  horizontal: edge,
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      "Berbagai Manfaat yang Akan Kita Dapat\nDari Mendengarkan Ceramah Agama.",
+                      style: whiteTextStyle.copyWith(fontSize: 18),
+                      textAlign: TextAlign.center,
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                      "Yuk, kita mulai perubahan mulai hari ini dengan kegiatan -\nkegiatan yang bisa menambah keilmuan kita.",
+                      style: greyTextStyle.copyWith(fontSize: 14),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
               ),
               Padding(
                 padding: EdgeInsets.symmetric(
