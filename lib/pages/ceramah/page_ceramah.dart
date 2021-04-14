@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:muslim_apps/model/berita.dart';
 import 'package:muslim_apps/pages/page_menu.dart';
