@@ -7,6 +7,9 @@ import 'package:muslim_apps/pages/page_main.dart';
 import 'package:muslim_apps/pages/quran/image_slideshow.dart';
 import 'package:muslim_apps/pages/qiblat/qiblat_page.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:muslim_apps/pages/renungan/model/renungan.dart';
+import 'package:muslim_apps/pages/renungan/provider/renungan_provider.dart';
+import 'package:muslim_apps/pages/renungan/widget/renungan_item.dart';
 import 'package:muslim_apps/theme.dart';
 import 'package:muslim_apps/widget/berita_item.dart';
 import 'package:muslim_apps/widget/menu_item.dart';
@@ -41,8 +44,8 @@ class _MenuPageState extends State<MenuPage> {
 
   @override
   Widget build(BuildContext context) {
-    var beritaProvider = Provider.of<BeritaProvider>(context);
-    beritaProvider.getBerita();
+    var renunganProvider = Provider.of<RenunganProvider>(context);
+    renunganProvider.getRenungan();
     return Scaffold(
       body: SafeArea(
         child: Container(
@@ -212,10 +215,10 @@ class _MenuPageState extends State<MenuPage> {
                       horizontal: edge,
                     ),
                     child: FutureBuilder(
-                      future: beritaProvider.getBerita(),
+                      future: renunganProvider.getRenungan(),
                       builder: (context, snapshot) {
                         if (snapshot.hasData) {
-                          List<Berita> data = snapshot.data;
+                          List<Renungan> data = snapshot.data;
                           int index = 0;
                           return Column(
                             children: data.map((item) {
@@ -223,7 +226,7 @@ class _MenuPageState extends State<MenuPage> {
                                 margin: EdgeInsets.only(
                                   top: index == 1 ? 0 : 15,
                                 ),
-                                child: BeritaItem(item),
+                                child: RenunganItem(item),
                               );
                             }).toList(),
                           );
