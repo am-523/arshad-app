@@ -1,4 +1,4 @@
-# muslim_apps
+# Arshad Apps
 
 A new Flutter project.
 
