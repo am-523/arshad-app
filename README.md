@@ -1,7 +1,43 @@
-# Arshad Apps
+
+
+
+<p align="center"><img src="![icon (19)](https://user-images.githubusercontent.com/61135648/115543950-8f8bc380-a2d4-11eb-8b93-5184334e0bb9.png)" width=250></p>
+
+<h3 align="center">
+Arshad Apps
+
+</h3>
+
+
 
 Arshad apps adalah aplikasi Quran gratis untuk perangkat Android. Ada banyak fitur yang sedang dikembangkan. Kirimkan umpan balik dan permintaan fitur Anda dan terus doakan kami!
 
+
+## Follow Me 
+<p align="center">
+	<b>
+		<a href="linkedin.com/in/asril-mochammad-215860192">
+			LinkedIn
+		</a>&nbsp;|
+		<a href="https://www.patreon.com/user/creators?u=43122521">
+			Patreon
+		</a>&nbsp;|
+		<a href="https://dribbble.com/am523_">
+			Dribbble
+		</a>&nbsp;|
+		<a href="https://www.youtube.com/channel/UCwI8AQlBewsdxbyk2r4n9CQ">
+			Youtube
+		</a>&nbsp;|
+		<a href="https://web.facebook.com/project523">
+			Facebook
+		</a>&nbsp;|
+		<a href="https://www.instagram.com/0x0000523am/">
+			Instagram
+		</a>
+	</b>
+  </p>
+  
+  
 
 ## Donasi Minum teh tarik ;)
 - https://www.buymeacoffee.com/projectam
@@ -12,7 +48,8 @@ Arshad apps adalah aplikasi Quran gratis untuk perangkat Android. Ada banyak fit
 
 ## ScreenShot
 
-![banner (2)](https://user-images.githubusercontent.com/61135648/115542006-61a57f80-a2d2-11eb-92d3-e0ed9f80da62.png)
+![banner (3)](https://user-images.githubusercontent.com/61135648/115543761-55222680-a2d4-11eb-9bcc-2a44b5d9b077.png)
+
 
 ![image 4](https://user-images.githubusercontent.com/61135648/115543329-d5945780-a2d3-11eb-94ed-ea9ea3da7c7b.png)
 ![image 5](https://user-images.githubusercontent.com/61135648/115543335-d75e1b00-a2d3-11eb-812c-3fd8083c9c3f.png)
