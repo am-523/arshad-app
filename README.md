@@ -1,7 +1,7 @@
 
 
 
-<p align="center"><img src="![icon (19)](https://user-images.githubusercontent.com/61135648/115543950-8f8bc380-a2d4-11eb-8b93-5184334e0bb9.png)" width=250></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/61135648/115543950-8f8bc380-a2d4-11eb-8b93-5184334e0bb9.png" width=250></p>
 
 <h3 align="center">
 Arshad Apps
